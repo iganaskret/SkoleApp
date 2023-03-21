@@ -13,17 +13,37 @@ class NewSpoergsmaalViewController: UIViewController{
     
     //var selectedInfo: TestInfo!
     @IBOutlet weak var SpoergsmaalLabel: UILabel!
+    @IBOutlet weak var SpoergsmaalSubLabel: UILabel!
     
-    @IBOutlet weak var SvarButton: UIButton!
+    @IBOutlet weak var mainStackView: UIStackView!
+    //@IBOutlet weak var SvarButton: UIButton!
     
     var QuestionsArray = [Spoergsmaal]()
     
-    @IBAction func SvarButtonClicked(_ sender: Any) {
-        SpoergsmaalLabel.text = String(QuestionsArray[1].spoergsmaal_tekst!)
+    //@IBAction func SvarButtonClicked(_ sender: Any) {
+      //  SpoergsmaalLabel.text = String(QuestionsArray[1].spoergsmaal_tekst!)
 
+    //}
+    
+    //MARK: View Making methods
+    func makeButtonWithAnswer(text:String) -> UIButton {
+        let answerButton = UIButton(type: UIButton.ButtonType.system)
+        answerButton.frame = CGRect(x: 30, y: 30, width: 50, height: 50)
+        answerButton.backgroundColor = UIColor(white: 0.25, alpha: 1.0)
+        //State dependent properties title and title color
+        answerButton.setTitle(text, for: .normal)
+        answerButton.setTitleColor(.white, for: .normal)
+        return answerButton
     }
     
-    
+    func displayAnswerButtons(count:Int){
+        for i in 0...count{
+            //let titleString = String(QuestionsArray[i].spoergsmaal_tekst!)
+            let titleString = String(format:"Hello Button %i",i)
+            let button = makeButtonWithAnswer(text:titleString)
+            mainStackView.addArrangedSubview(button)
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,14 +51,15 @@ class NewSpoergsmaalViewController: UIViewController{
         NetworkServiceQuestions.sharedObj.getQuestions { (Questions) in
             self.QuestionsArray = Questions
             self.SpoergsmaalLabel.text = String(self.QuestionsArray[0].spoergsmaal_tekst!)
+            self.SpoergsmaalSubLabel.text = String(self.QuestionsArray[1].spoergsmaal_tekst!)
         }
-        
-       
+        mainStackView.spacing = 1.0
+        //mainStackView.addArrangedSubview(makeButtonWithAnswer(text:"Hello,Button"))
+        //mainStackView.addArrangedSubview(makeButtonWithAnswer(text:"Hello,Button 2"))
+        displayAnswerButtons(count: 2)
+
+
     }
-    
-    
-    
-    
         
     }
     
