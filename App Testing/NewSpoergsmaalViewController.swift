@@ -56,7 +56,7 @@ class NewSpoergsmaalViewController: UIViewController{
         mainStackView.spacing = 1.0
         //mainStackView.addArrangedSubview(makeButtonWithAnswer(text:"Hello,Button"))
         //mainStackView.addArrangedSubview(makeButtonWithAnswer(text:"Hello,Button 2"))
-        displayAnswerButtons(count: 2)
+        displayAnswerButtons(count: 3)
 
 
     }
