@@ -54,7 +54,7 @@ class NewSpoergsmaalViewController: UIViewController{
             self.SpoergsmaalLabel.text = String(self.QuestionsArray[0].spoergsmaal_tekst!)
             // if the max_antal_svar is greater than 1, display the message
             if(Int(self.QuestionsArray[0].max_antal_svar!) > 1){
-                self.SpoergsmaalSubLabel.text = "Du kan vælge opå til " + String(self.QuestionsArray[0].max_antal_svar!) + " fag"
+                self.SpoergsmaalSubLabel.text = "Du kan vælge opå til " + String(self.QuestionsArray[0].max_antal_svar!) + " svar"
             } else {
                 self.SpoergsmaalSubLabel.isHidden = true
                 self.SpoergsmaalSubLabelIcon.isHidden = true
