@@ -15,6 +15,7 @@ class NewSpoergsmaalViewController: UIViewController{
     @IBOutlet weak var SpoergsmaalLabel: UILabel!
     @IBOutlet weak var SpoergsmaalSubLabel: UILabel!
     
+    @IBOutlet weak var SpoergsmaalSubLabelIcon: UIImageView!
     @IBOutlet weak var mainStackView: UIStackView!
     //@IBOutlet weak var SvarButton: UIButton!
     
@@ -51,7 +52,13 @@ class NewSpoergsmaalViewController: UIViewController{
         NetworkServiceQuestions.sharedObj.getQuestions { (Questions) in
             self.QuestionsArray = Questions
             self.SpoergsmaalLabel.text = String(self.QuestionsArray[0].spoergsmaal_tekst!)
-            self.SpoergsmaalSubLabel.text = String(self.QuestionsArray[1].spoergsmaal_tekst!)
+            // if the max_antal_svar is greater than 1, display the message
+            if(Int(self.QuestionsArray[0].max_antal_svar!) > 1){
+                self.SpoergsmaalSubLabel.text = "Du kan vælge opå til " + String(self.QuestionsArray[0].max_antal_svar!) + " fag"
+            } else {
+                self.SpoergsmaalSubLabel.isHidden = true
+                self.SpoergsmaalSubLabelIcon.isHidden = true
+            }
             self.displayAnswerButtons(count: 1)
         }
         mainStackView.spacing = 1.0

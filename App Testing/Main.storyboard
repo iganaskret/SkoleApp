@@ -398,6 +398,7 @@
                     <connections>
                         <outlet property="SpoergsmaalLabel" destination="4dN-hv-yQQ" id="V6b-9e-bKT"/>
                         <outlet property="SpoergsmaalSubLabel" destination="c80-if-E0I" id="tdD-CX-8aP"/>
+                        <outlet property="SpoergsmaalSubLabelIcon" destination="Du7-Er-Oi3" id="QAD-E7-Bj0"/>
                         <outlet property="mainStackView" destination="qDt-wo-BeB" id="xm6-sS-dgW"/>
                         <segue destination="ATU-0S-knh" kind="show" id="12s-Zc-Ttw"/>
                     </connections>
