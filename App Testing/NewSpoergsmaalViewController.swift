@@ -38,8 +38,8 @@ class NewSpoergsmaalViewController: UIViewController{
     
     func displayAnswerButtons(count:Int){
         for i in 0...count{
-            //let titleString = String(QuestionsArray[i].spoergsmaal_tekst!)
-            let titleString = String(format:"Hello Button %i",i)
+            let titleString = String(QuestionsArray[i].spoergsmaal_tekst!)
+            //let titleString = String(format:"Hello Button %i",i)
             let button = makeButtonWithAnswer(text:titleString)
             mainStackView.addArrangedSubview(button)
         }
@@ -52,12 +52,11 @@ class NewSpoergsmaalViewController: UIViewController{
             self.QuestionsArray = Questions
             self.SpoergsmaalLabel.text = String(self.QuestionsArray[0].spoergsmaal_tekst!)
             self.SpoergsmaalSubLabel.text = String(self.QuestionsArray[1].spoergsmaal_tekst!)
+            self.displayAnswerButtons(count: 1)
         }
         mainStackView.spacing = 1.0
         //mainStackView.addArrangedSubview(makeButtonWithAnswer(text:"Hello,Button"))
         //mainStackView.addArrangedSubview(makeButtonWithAnswer(text:"Hello,Button 2"))
-        displayAnswerButtons(count: 3)
-
 
     }
         
