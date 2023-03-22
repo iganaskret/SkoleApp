@@ -3,4 +3,192 @@
    uuid = "94D409EF-73D1-46BB-AE48-2B4866945231"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00CB2C09-BA26-4741-9C31-AFD74D378C25"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App Testing/NewSpoergsmaalViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "NewSpoergsmaalViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "00CB2C09-BA26-4741-9C31-AFD74D378C25 - 27aa9e435bf03b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "App_Testing.NewSpoergsmaalViewController.SpoergsmaalLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "App Testing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mediastyle/Documents/GitHub/SkoleApp/App%20Testing/NewSpoergsmaalViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "00CB2C09-BA26-4741-9C31-AFD74D378C25 - c793292e1d9ae7c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "App_Testing.NewSpoergsmaalViewController.SpoergsmaalLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "App Testing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mediastyle/Documents/GitHub/SkoleApp/App%20Testing/NewSpoergsmaalViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "00CB2C09-BA26-4741-9C31-AFD74D378C25 - 237495e201fee8b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "App_Testing.NewSpoergsmaalViewController.SpoergsmaalLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "App Testing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mediastyle/Documents/GitHub/SkoleApp/App%20Testing/NewSpoergsmaalViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "00CB2C09-BA26-4741-9C31-AFD74D378C25 - 84344fc7d451512f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "App_Testing.NewSpoergsmaalViewController.SpoergsmaalLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "App Testing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mediastyle/Documents/GitHub/SkoleApp/App%20Testing/NewSpoergsmaalViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "00CB2C09-BA26-4741-9C31-AFD74D378C25 - ffd5d2d58eb1b4cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "App_Testing.NewSpoergsmaalViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; App_Testing.NewSpoergsmaalViewController"
+                  moduleName = "App Testing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mediastyle/Documents/GitHub/SkoleApp/App%20Testing/NewSpoergsmaalViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "00CB2C09-BA26-4741-9C31-AFD74D378C25 - f723f26671f84b0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "App_Testing.NewSpoergsmaalViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;App_Testing.NewSpoergsmaalViewController&gt;"
+                  moduleName = "App Testing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mediastyle/Documents/GitHub/SkoleApp/App%20Testing/NewSpoergsmaalViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8921C4A-ADF6-44AF-8A74-BB318FE66331"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App Testing/CollectionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "LabelCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "C8921C4A-ADF6-44AF-8A74-BB318FE66331 - 16d043d48205e103"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "App_Testing.CollectionViewController.LabelCell.init(frame: __C.CGRect) -&gt; App_Testing.CollectionViewController.LabelCell"
+                  moduleName = "App Testing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mediastyle/Documents/GitHub/SkoleApp/App%20Testing/CollectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "C8921C4A-ADF6-44AF-8A74-BB318FE66331 - ab56885ad352d9c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "App_Testing.CollectionViewController.LabelCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;App_Testing.CollectionViewController.LabelCell&gt;"
+                  moduleName = "App Testing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mediastyle/Documents/GitHub/SkoleApp/App%20Testing/CollectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "C8921C4A-ADF6-44AF-8A74-BB318FE66331 - d1c5f973f4b11a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UILabel in variable initialization expression of App_Testing.CollectionViewController.LabelCell.label : __C.UILabel"
+                  moduleName = "App Testing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mediastyle/Documents/GitHub/SkoleApp/App%20Testing/CollectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "C8921C4A-ADF6-44AF-8A74-BB318FE66331 - 1d0ac4a09e0d25e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "App_Testing.CollectionViewController.LabelCell.label.getter : __C.UILabel"
+                  moduleName = "App Testing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mediastyle/Documents/GitHub/SkoleApp/App%20Testing/CollectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

@@ -31,7 +31,8 @@ class NetworkService {
     task.resume()
   }
 }
-// Get questions and answers
+
+// Get questions
 class NetworkServiceQuestions {
   static var sharedObj = NetworkServiceQuestions()
   let questionSession = URLSession.init(configuration: .default)
@@ -45,6 +46,30 @@ class NetworkServiceQuestions {
             let decodedata = try JSONDecoder().decode(Questions.self, from: data)
             //print(decodedata.count)
             //print(decodedata[0].spoergsmaal_tekst ?? "text")
+            print(String(data: data, encoding: .utf8 )!)
+            onSucces(decodedata)
+          } catch {
+            print(error.localizedDescription)
+          }
+        }
+      }
+    }
+    task.resume()
+  }
+}
+
+// Get answers
+class NetworkServiceAnswers {
+  static var sharedObj = NetworkServiceAnswers()
+  let answerSession = URLSession.init(configuration: .default)
+  let answersUrlPath = URL(string: "http://test-postnord.dk.linux21.curanetserver.dk/api-get-svar.php?id=1")!
+  func getAnswers(onSucces: @escaping(Answers) -> Void) {
+    let task = answerSession.dataTask(with: answersUrlPath) {
+      (data, response, error) in
+      DispatchQueue.main.async {
+        if let data = data {
+          do {
+            let decodedata = try JSONDecoder().decode(Answers.self, from: data)
             print(String(data: data, encoding: .utf8 )!)
             onSucces(decodedata)
           } catch {

@@ -376,10 +376,6 @@
                                     <segue destination="ATU-0S-knh" kind="show" id="POd-gg-Dj8"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillProportionally" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qDt-wo-BeB">
-                                <rect key="frame" x="20" y="297" width="350" height="366"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Du kan vælge opå til 3 fag " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="c80-if-E0I">
                                 <rect key="frame" x="53" y="237" width="304" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -387,6 +383,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ba5-ga-Uov">
+                                <rect key="frame" x="20" y="281" width="357" height="397"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="frN-2V-J4X"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -399,7 +399,7 @@
                         <outlet property="SpoergsmaalLabel" destination="4dN-hv-yQQ" id="V6b-9e-bKT"/>
                         <outlet property="SpoergsmaalSubLabel" destination="c80-if-E0I" id="tdD-CX-8aP"/>
                         <outlet property="SpoergsmaalSubLabelIcon" destination="Du7-Er-Oi3" id="QAD-E7-Bj0"/>
-                        <outlet property="mainStackView" destination="qDt-wo-BeB" id="xm6-sS-dgW"/>
+                        <outlet property="stackView" destination="ba5-ga-Uov" id="rTE-cK-YiR"/>
                         <segue destination="ATU-0S-knh" kind="show" id="12s-Zc-Ttw"/>
                     </connections>
                 </viewController>
@@ -531,10 +531,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" systemColor="tintColor"/>
-                                <size key="titleShadowOffset" width="16" height="18"/>
+                                <size key="titleShadowOffset" width="47" height="18"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Fysik" cornerStyle="capsule">
-                                    <backgroundConfiguration key="background">
+                                    <backgroundConfiguration key="background" strokeWidth="3">
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="strokeColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                                     </backgroundConfiguration>
@@ -758,7 +758,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RMc-xN-h38" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5250.7246376811599" y="2.6785714285714284"/>
+            <point key="canvasLocation" x="5249.6183206106871" y="2.1126760563380285"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="nda-UR-2Pj">

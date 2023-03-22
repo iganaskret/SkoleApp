@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2F27D69729C9A69F0091325A /* NewSpoergsmaalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F27D69629C9A69F0091325A /* NewSpoergsmaalViewController.swift */; };
+		2F27D69929CB02BE0091325A /* SvarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F27D69829CB02BE0091325A /* SvarModel.swift */; };
+		2F27D69B29CB25A30091325A /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F27D69A29CB25A30091325A /* CollectionViewController.swift */; };
 		2F8C857429C85EB40051B396 /* SpoergsmaalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C857329C85EB40051B396 /* SpoergsmaalViewController.swift */; };
 		2F8C857629C99B590051B396 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 2F8C857529C99B590051B396 /* fonts */; };
 		2F8C857829C9A4FB0051B396 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F8C857729C9A4FB0051B396 /* Main.storyboard */; };
@@ -24,6 +26,8 @@
 
 /* Begin PBXFileReference section */
 		2F27D69629C9A69F0091325A /* NewSpoergsmaalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSpoergsmaalViewController.swift; sourceTree = "<group>"; };
+		2F27D69829CB02BE0091325A /* SvarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SvarModel.swift; sourceTree = "<group>"; };
+		2F27D69A29CB25A30091325A /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		2F8C857329C85EB40051B396 /* SpoergsmaalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoergsmaalViewController.swift; sourceTree = "<group>"; };
 		2F8C857529C99B590051B396 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		2F8C857729C9A4FB0051B396 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 		CFF9CD7C29C451A0002ED77D = {
 			isa = PBXGroup;
 			children = (
+				2F27D69829CB02BE0091325A /* SvarModel.swift */,
 				CFF9CD9E29C45216002ED77D /* TestModel.swift */,
 				2FAA43FC29C83A0C00C2C0F7 /* SpoergsmaalModel.swift */,
 				CFF9CD9C29C451E3002ED77D /* Network.swift */,
@@ -79,6 +84,7 @@
 				2F8C857329C85EB40051B396 /* SpoergsmaalViewController.swift */,
 				2F27D69629C9A69F0091325A /* NewSpoergsmaalViewController.swift */,
 				CFF9CD8E29C451A0002ED77D /* Main_old.storyboard */,
+				2F27D69A29CB25A30091325A /* CollectionViewController.swift */,
 				2F8C857729C9A4FB0051B396 /* Main.storyboard */,
 				2F8C857529C99B590051B396 /* fonts */,
 				CFF9CD9129C451A2002ED77D /* Assets.xcassets */,
@@ -162,8 +168,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F8C857429C85EB40051B396 /* SpoergsmaalViewController.swift in Sources */,
+				2F27D69929CB02BE0091325A /* SvarModel.swift in Sources */,
 				CFF9CD8D29C451A0002ED77D /* ViewController.swift in Sources */,
 				CFF9CD8929C451A0002ED77D /* AppDelegate.swift in Sources */,
+				2F27D69B29CB25A30091325A /* CollectionViewController.swift in Sources */,
 				CFF9CD9F29C45216002ED77D /* TestModel.swift in Sources */,
 				2F27D69729C9A69F0091325A /* NewSpoergsmaalViewController.swift in Sources */,
 				2FAA43FD29C83A0C00C2C0F7 /* SpoergsmaalModel.swift in Sources */,
